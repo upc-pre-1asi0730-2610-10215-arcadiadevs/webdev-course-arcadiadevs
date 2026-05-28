@@ -15,28 +15,28 @@
 ## 3. Guion de Video
 
 **[Escena 1: Introducción al Esqueleto Humano]**
-- *(Visual: El instructor saluda. Aparece la silueta de una persona dividida en cabeza y cuerpo).*
-- **Instructor (Audio):** "¡Hola de nuevo! En la lección anterior vimos cómo mostrar contenido y darle estilo. Ahora vamos a construir la base de la página para que el navegador entienda dónde empieza todo, dónde va la información de apoyo y qué parte verá el usuario."
+- *(Visual: Pantalla de apertura con la silueta de una persona dividida en cabeza y cuerpo).*
+- **Voz en off (Audio):** "¡Hola de nuevo! En la lección anterior vimos cómo mostrar contenido y darle estilo. Ahora vamos a construir la base de la página para que el navegador entienda dónde empieza todo, dónde va la información de apoyo y qué parte verá el usuario."
 
 **[Escena 2: La Etiqueta Principal]**
-- *(Visual: Pantalla de CodePen vacía. El instructor empieza a escribir `<html lang="es">` y `</html>`).*
-- **Instructor (Audio):** "Todo empieza con la etiqueta `<html>`. Esta etiqueta envuelve a toda la página. Dentro de la etiqueta de apertura podemos añadir un atributo, como `lang="es"`, para decirle al navegador que el contenido está en español."
+- *(Visual: Pantalla de CodePen vacía. Se escribe `<html lang="es">` y `</html>`).*
+- **Voz en off (Audio):** "Todo empieza con la etiqueta `<html>`. Esta etiqueta envuelve a toda la página. Dentro de la etiqueta de apertura podemos añadir un atributo, como `lang="es"`, para decirle al navegador que el contenido está en español."
 
 **[Escena 3: La Cabeza (El cerebro de la página)]**
 - *(Visual: Se escribe la etiqueta `<head>` dentro de `<html>`).*
-- **Instructor (Audio):** "Dentro de `<html>`, tenemos la etiqueta `<head>`. Aquí colocamos información importante para el navegador que normalmente no se ve en la página, como el texto que aparece en la pestaña. Ese texto lo escribimos con la etiqueta `<title>`."
+- **Voz en off (Audio):** "Dentro de `<html>`, tenemos la etiqueta `<head>`. Aquí colocamos información importante para el navegador que normalmente no se ve en la página, como el texto que aparece en la pestaña. Ese texto lo escribimos con la etiqueta `<title>`."
 
 **[Escena 4: El Cuerpo (Lo que todos ven)]**
 - *(Visual: Se escribe la etiqueta `<body>` debajo de `<head>`. Se añade un `<h1>` y un `<p>`).*
-- **Instructor (Audio):** "Luego viene `<body>`, el cuerpo. Aquí colocamos todo lo que queremos que el visitante vea: títulos, párrafos, imágenes y más. Escribamos un título y un pequeño párrafo dentro de esta sección."
+- **Voz en off (Audio):** "Luego viene `<body>`, el cuerpo. Aquí colocamos todo lo que queremos que el visitante vea: títulos, párrafos, imágenes y más. Escribamos un título y un pequeño párrafo dentro de esta sección."
 
 **[Escena 5: Repaso del Código y Visualización]**
 - *(Visual: Se muestra el código completo bien ordenado (indentado). Una flecha señala cómo las etiquetas se abren y se cierran).*
-- **Instructor (Audio):** "Fíjate cómo las etiquetas se abren y se cierran con una barra inclinada `/`. Es como abrir una caja, poner contenido dentro y luego cerrarla. La indentación nos ayuda a ver qué va dentro de qué, aunque lo más importante es que las etiquetas estén bien anidadas."
+- **Voz en off (Audio):** "Fíjate cómo las etiquetas se abren y se cierran con una barra inclinada `/`. Es como abrir una caja, poner contenido dentro y luego cerrarla. La indentación nos ayuda a ver qué va dentro de qué, aunque lo más importante es que las etiquetas estén bien anidadas."
 
 **[Escena 6: Cierre y Reto]**
-- *(Visual: Instructor en cámara sonriendo. Texto: "Reto: Construye tu esqueleto").*
-- **Instructor (Audio):** "¡Gran trabajo! Ahora ya conoces la anatomía básica de una página web. En la sección práctica vas a construir este esqueleto desde cero. Inténtalo con calma y revisa que cada etiqueta tenga su pareja."
+- *(Visual: Pantalla de cierre con el texto: "Reto: Construye tu esqueleto" y una vista del editor de CodePen).*
+- **Voz en off (Audio):** "¡Gran trabajo! Ahora ya conoces la anatomía básica de una página web. En la sección práctica vas a construir este esqueleto desde cero. Inténtalo con calma y revisa que cada etiqueta tenga su pareja."
 
 ## 4. Código de Inicio (Starter Code)
 
