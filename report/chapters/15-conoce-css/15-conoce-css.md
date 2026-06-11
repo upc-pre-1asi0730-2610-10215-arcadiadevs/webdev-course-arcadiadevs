@@ -5,8 +5,8 @@
 
 ## Entorno de Práctica
 *Empieza a programar de inmediato (¡Sin instalar nada!):*
-- **[Abrir Replit - Bucle infinito](https://codepen.io/pen)**
-- **[Abrir JDoodle - Bucle infinito](https://codepen.io/pen)**
+- **[Abrir Replit - Conoce a CSS](https://codepen.io/pen)**
+- **[Abrir JDoodle - Conoce a CSS](https://codepen.io/pen)**
 
 ## Transcripción / Notas de la Clase
 
