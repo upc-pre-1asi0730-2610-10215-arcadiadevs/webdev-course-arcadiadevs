@@ -1,0 +1,26 @@
+/* Configuracion global de la pantalla */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #fce4ec; /* Color de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilos de la tarjeta */
+.tarjeta-perfil {
+    background-color: white;
+    width: 300px;
+    margin: auto; /* Truco de centrado */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+/* Ajuste opcional */
+img {
+    max-widht: 100%;
+    height: auto;
+}
