@@ -89,3 +89,50 @@ div {
   
 }
 ```
+
+## 4. Código Final (Solution)
+
+**HTML:**
+```html
+<html lang="es">
+  <body>
+    <div class="mi-caja">
+      <h1>Mis Películas</h1>
+      <p>Estas son algunas de las cintas que más me han impactado a lo largo de mi vida.</p>
+    </div>
+  </body>
+</html>
+`
+
+**CSS:**
+`css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+}
+
+div {
+  background-color: white;
+  /* 1. Añade un borde a la caja */
+  border: 3px solid #00acc1;
+  /* 2. Añade padding para que el texto no toque el borde */
+  padding: 30px;
+  /* 3. Limita el ancho para que no ocupe toda la pantalla */
+  width: 60%;
+  /* 4. Truco mágico para centrar horizontalmente */
+  margin: auto;
+  /* Separando un poco la caja entera del techo */
+  margin-top: 50px;
+}
+```
+
+## 5. Actividad Práctica
+
+**Reto (5 minutos): ¡Domina las Cajas!**
+1. En CodePen, ve a las reglas de CSS de la etiqueta div. Esta etiqueta es literalmente "una caja gigante" que guarda nuestro texto.
+2. Ponle un borde (`border: 3px solid black;`).
+3. Agrega espacio interno para que el texto no toque el borde negro. Usa `padding: 30px;`.
+4. Achica un poco la caja poniendo `width: 60%`;.
+5. Usa el truco de oro: margin: auto; para centrar perfectamente esa caja en la pantalla de tu aplicación. 
+6. (Extra) Añade espacio por arriba a la caja usando `margin-top: 50px`;.0
+---
