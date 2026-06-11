@@ -1,6 +1,5 @@
-﻿/dist
+/dist
 *.pdf
-*.html
 *.docx
 .DS_Store
 
