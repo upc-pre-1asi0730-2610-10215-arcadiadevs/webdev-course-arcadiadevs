@@ -53,3 +53,39 @@ Instructor (Audio): "Además de usar margin: auto;, también podemos controlar m
 - **Instructor (Audio):** "Hoy aprendiste a controlar el espacio. El borde nos muestra la caja, el padding da aire interior y el margin separa la caja del exterior. Con esto ya tienes una herramienta clave para que tu proyecto final no se vea apretado ni desordenado."
 
 ---
+
+## 3. Código de Inicio (Starter Code)
+
+*Plataforma: CodePen*
+
+**HTML:**
+```html
+<html lang="es">
+  <body>
+    <div class="mi-caja">
+      <h1>Mis Películas</h1>
+      <p>Estas son algunas de las cintas que más me han impactado a lo largo de mi vida.</p>
+    </div>
+  </body>
+</html>
+```
+
+**CSS:**
+```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+}
+
+div {
+  background-color: white;
+  /* 1. Añade un borde a la caja */
+  
+  /* 2. Añade padding (espacio interno) */
+  
+  /* 3. Limita el ancho de la caja con width */
+  
+  /* 4. ¡Usa el truco mágico para centrarla (margin)! */
+  
+}
+```
