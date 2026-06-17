@@ -1,5 +1,3 @@
-﻿# Organizando la información
-
 ## Video de la Clase y Entorno de Práctica
 
 *Enlace al video de YouTube:* [**https://youtu.be/w65R31rmauc**](https://youtu.be/w65R31rmauc)

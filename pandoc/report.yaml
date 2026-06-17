@@ -1,9 +1,23 @@
 metadata:
   title: "Curso de Fundamentos de Desarrollo Web"
+  subtitle: "HTML y CSS para Principiantes"
   author:
     - "Equipo ArcadiaDevs"
-  date: "2026-1"
+  institution: "ArcadiaDevs"
+  date: "2026"
   lang: es-ES
+  toc-title: "Tabla de Contenidos"
+  mainfont: "Inter"
+  sansfont: "Inter"
+  monofont: "Source Code Pro"
+  listings: true
+  listings-disable-line-numbers: true
+  listings-no-page-break: true
+  colorlinks: true
+  linkcolor: customlinkcolor
+  urlcolor: customlinkcolor
+  filecolor: customlinkcolor
+  citecolor: customlinkcolor
 from: markdown
 standalone: true
 toc: true
@@ -12,8 +26,9 @@ number-sections: true
 citeproc: true
 template: pandoc/templates/eisvogel.tex
 pdf-engine: xelatex
+include-in-header: pandoc/code-style.tex
 
 resource-path:
   - .
   - report
-  - assets
+  - report/assets
