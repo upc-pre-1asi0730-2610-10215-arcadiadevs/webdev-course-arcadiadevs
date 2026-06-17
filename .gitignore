@@ -1,0 +1,7 @@
+/dist
+*.pdf
+*.docx
+.DS_Store
+.mimocode/
+AGENTS.md
+build/
