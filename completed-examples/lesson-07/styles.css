@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+}
+
+.mi-caja {
+  background-color: white;
+  /* 1. Añade un borde a la caja */
+  border: 2px solid black;
+  /* 2. Añade padding para que el texto no toque el borde */
+  padding: 20px;
+  /* 3. Limita el ancho para que no ocupe toda la pantalla */
+  width: 50%;
+  /* 4. Truco mágico para centrar horizontalmente */
+  margin: auto;
+  /* Separando un poco la caja entera del techo */
+  margin-top: 50px;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
