@@ -1,5 +1,3 @@
-﻿# Multimedia y navegación
-
 ## Video de la Clase y Entorno de Práctica
 
 *Enlace al video de YouTube:* [**falta**](falta)
