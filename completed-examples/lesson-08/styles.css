@@ -1,26 +1,42 @@
-/* Configuracion global de la pantalla */
 body {
-    font-family: "Arial", sans-serif;
-    background-color: #fce4ec; /* Color de fondo */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fce4ec;
+  /* Espacio extra arriba */
+  padding-top: 40px;
+  margin: 0;
 }
 
-/* Estilos de la tarjeta */
 .tarjeta-perfil {
-    background-color: white;
-    width: 300px;
-    margin: auto; /* Truco de centrado */
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+  background-color: white;
+  width: 300px;
+  /* Truco para centrar */
+  margin: auto;
+  /* Espacio interior generoso */
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center; /* Centrar todo el texto */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Ajuste opcional */
+/* Haciendo la imagen bonita y redonda */
 img {
-    max-widht: 100%;
-    height: auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Color para nuestros enlaces */
+a {
+  color: #c2185b;
 }
