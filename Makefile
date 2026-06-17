@@ -4,9 +4,8 @@ PDF_DEFAULTS=pandoc/report.yaml
 PDF_FRONT = $(sort $(wildcard report/front-matter/*.md))
 CHAPTERS = $(sort $(wildcard report/chapters/*.md))
 BACK_MATTER = $(sort $(wildcard report/back-matter/*.md))
-BIBLIOGRAPHY = $(sort $(wildcard report/bibliography/*.md))
 
-PDF_FILES = $(PDF_FRONT) $(CHAPTERS) $(BACK_MATTER) $(BIBLIOGRAPHY)
+PDF_FILES = $(PDF_FRONT) $(CHAPTERS) $(BACK_MATTER)
 
 PDF=$(OUTPUT_DIR)/curso-desarrollo-web.pdf
 
