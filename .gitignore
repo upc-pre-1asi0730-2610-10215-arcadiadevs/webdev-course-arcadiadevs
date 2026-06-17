@@ -1,4 +1,6 @@
-﻿/dist
+/dist
 *.pdf
 *.docx
 .DS_Store
+AGENTS.md
+build/
