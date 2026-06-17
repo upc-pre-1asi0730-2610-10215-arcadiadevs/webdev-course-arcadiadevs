@@ -1,93 +1,64 @@
-<<<<<<< HEAD
-﻿# operadores
-=======
-# Lección 2: El esqueleto de tu página
+# El esqueleto de tu página
 
-## 1. Ficha Técnica
-- **Duración estimada:** 7 minutos.
-- **Objetivo de aprendizaje:** Identificar y redactar la estructura básica de un documento HTML (`<html>`, `<head>`, `<body>`), comprendiendo el concepto de etiquetas anidadas y atributos.
+## Video de la Clase y Entorno de Práctica
 
-## 2. Conceptos Clave
+*Enlace al video de YouTube:* [**https://youtu.be/dfwfEkFlHBM**](https://youtu.be/dfwfEkFlHBM)
 
-### 2.1. Estructura de un documento HTML
+Para esta clase continuaremos usando **CodePen**, el mismo entorno en línea que usamos la clase pasada. No necesitas instalar nada en tu computadora. Haz clic en el siguiente enlace para abrir el código inicial de la clase ya precargado: [**https://codepen.io/ST-A-the-encoder/pen/jEVopBv**](https://codepen.io/ST-A-the-encoder/pen/jEVopBv)
 
-Un documento HTML se construye con etiquetas anidadas: unas se abren y otras se cierran dentro de ellas.
+Al igual que en la clase anterior, verás la interfaz con los panales divididos.
 
-![Etiquetas anidadas: visualización de cómo las etiquetas HTML se abren y cierran dentro de otras.](report/assets/lesson-02/etiquetas-anidadas.png)
+![Captura de CodePen con el proyecto precargado](../assets/lesson-02/codepen-precargado.png){width=80%}
 
-- La etiqueta `<html lang="es">` envuelve toda la página y le indica al navegador que el contenido está en español.
-- La etiqueta `<head>` guarda información para el navegador, como el título de la pestaña.
-- La etiqueta `<body>` contiene todo lo que el visitante ve en pantalla.
+## Notas de la Clase
 
-![Estructura general de un documento HTML: relación entre las etiquetas html, head y body.](report/assets/lesson-02/estructura-html.png)
+¡Hola de nuevo! En la lección anterior vimos cómo mostrar contenido y darle estilo. Ahora vamos a construir la base de la página para que el navegador entienda dónde empieza todo, dónde va la información de apoyo y qué parte verá el usuario.
 
-### 2.2. ¿Qué ve el usuario vs. qué ve el navegador?
+**La estructura**
 
-No todo el código HTML se muestra en la página. El `<head>` contiene información invisible para el visitante pero esencial para el navegador.
+En la lección anterior escribimos contenido simple y vimos que el navegador lo mostraba de inmediato. Eso fue como colocar una pieza suelta en la página. Ahora vamos a ordenar esa pieza dentro de una estructura completa. Así como una persona tiene cabeza y cuerpo, una página HTML también tiene partes principales. Esta estructura ayuda al navegador a entender qué información sirve para configurar la página y qué contenido debe mostrar al visitante.
 
-![Anatomía del navegador: el título de la pestaña proviene del head, mientras que el contenido visible viene del body.](report/assets/lesson-02/anatomia-navegador.png)
+**La Etiqueta Principal**
 
-### 2.3. CodePen
+Todo empieza con la etiqueta `<html>`. Esta etiqueta envuelve a toda la página. Dentro de la etiqueta de apertura podemos añadir un atributo, como `lang="es"`, para decirle al navegador que el contenido está en español. Esto puede ayudar a traductores automáticos, lectores de pantalla y herramientas de accesibilidad. Aunque el visitante no vea este atributo directamente, usarlo hace que nuestra página esté mejor preparada y sea más clara para distintas herramientas.
 
-**CodePen** divide la pantalla en HTML, CSS y Resultado.
+**El documento HTML completo y `<!DOCTYPE html>`**
 
-### 2.4. Indentación
+Ahora que ya vimos la etiqueta `<html>`, hay una línea importante que suele aparecer antes de todo: `<!DOCTYPE html>`. Esta línea le indica al navegador que estamos usando HTML moderno. No es una etiqueta como `<html>` o `<body>`, porque no tiene cierre; más bien funciona como una declaración inicial del documento. En una página HTML completa, normalmente escribimos primero `<!DOCTYPE html>`, luego `<html lang="es">`, después `<head>` y finalmente `<body>`. Sin embargo, en CodePen no siempre necesitamos escribir toda la estructura completa. CodePen ya prepara parte del documento por nosotros, por eso muchas veces escribimos directamente las etiquetas que irían dentro del HTML. Aun así, es importante conocer la estructura completa, porque cuando trabajes en un archivo real llamado index.html, sí deberías incluir:
 
-La indentación no cambia lo que se muestra, pero ayuda a leer y entender mejor la estructura.
-
-![Indentación correcta vs incorrecta: comparación de código bien organizado con código difícil de leer.](report/assets/lesson-02/identacion-correcta-incorrecta.png)
-
-## 3. Código de Inicio (Starter Code)
-
-*Plataforma: CodePen (proporcionar enlace al alumno)*
-
-Los archivos de inicio para esta lección están disponibles en la carpeta [/starter-files/lesson-02](file:///D:/Projects/webdev-course-arcadiadevs/starter-files/lesson-02/):
-- HTML base: [index.html](file:///D:/Projects/webdev-course-arcadiadevs/starter-files/lesson-02/index.html)
-- CSS base: [styles.css](file:///D:/Projects/webdev-course-arcadiadevs/starter-files/lesson-02/styles.css)
-
-**HTML:**
 ```html
-<!-- Escribe aquí tu estructura básica HTML -->
-
-```
-
-**CSS:**
-```css
-/* Hoy no usaremos CSS, ¡solo estructura! */
-```
-
-## 4. Código Final (Solution)
-
-El código de la solución completada está disponible en la carpeta [/completed-examples/lesson-02](file:///D:/Projects/webdev-course-arcadiadevs/completed-examples/lesson-02/):
-- HTML completo: [index.html](file:///D:/Projects/webdev-course-arcadiadevs/completed-examples/lesson-02/index.html)
-- CSS completo: [styles.css](file:///D:/Projects/webdev-course-arcadiadevs/completed-examples/lesson-02/styles.css)
-
-**HTML:**
-```html
-<html lang="es">
+<!DOCTYPE html>
+<html>
   <head>
-    <title>La web de mis hobbies</title>
   </head>
   <body>
-    <h1>¡Bienvenidos a mi primera web formal!</h1>
-    <p>Me encanta aprender desarrollo web. Este es el cuerpo de mi página.</p>
   </body>
 </html>
 ```
 
-**CSS:**
-```css
-/* Vacío por ahora */
-```
+Fíjate cómo las etiquetas se abren y se cierran con una barra inclinada `/`. Es como abrir una caja, poner contenido dentro y luego cerrarla. La indentación nos ayuda a ver qué va dentro de qué, aunque lo más importante es que las etiquetas estén bien anidadas.
 
-## 5. Actividad Práctica
+Cuando una etiqueta está dentro de otra, decimos que está anidada. Imagina una mochila: dentro de la mochila puedes tener una cartuchera, y dentro de la cartuchera puedes tener lápices. En HTML ocurre algo parecido. La etiqueta `<html>` contiene toda la página.
 
-**Reto (5 minutos): ¡Arma el Esqueleto!**
-1. Abre el CodePen de inicio. En el panel **HTML** verás un comentario de ayuda; en el panel **CSS** no escribirás nada todavía.
-2. Reemplaza el comentario del panel **HTML** por la estructura completa del documento.
-3. Escribe la etiqueta principal `<html lang="es">` y cierra el documento con `</html>` al final.
-4. Dentro de `<html>`, crea primero `<head>` y luego `<body>`, respetando el orden y la sangría.
-5. Dentro de `<head>`, añade un `<title>` con el nombre de tu página, por ejemplo: `La web de mis hobbies`.
-6. Dentro de `<body>`, agrega un `<h1>` para dar la bienvenida y un `<p>` con un pasatiempo que te guste.
-7. Revisa que todas las etiquetas de apertura tengan su cierre y que quede claro qué elemento está dentro de cuál.
->>>>>>> origin/develop
+**La Cabeza (El cerebro de la página)**
+
+Dentro de `<html>`, tenemos la etiqueta `<head>`. Aquí colocamos información importante para el navegador que normalmente no se ve en la página, como el texto que aparece en la pestaña. Ese texto lo escribimos con la etiqueta `<title>`.
+
+**El Cuerpo (Lo que todos ven)**
+
+Luego viene `<body>`, el cuerpo. Aquí colocamos todo lo que queremos que el visitante vea: títulos, párrafos, imágenes y más. Escribamos un título y un pequeño párrafo dentro de esta sección.
+ 
+## Actividad Práctica de la Clase: 
+
+**El Reto de la Indentación:**
+
+Ahora es tu turno. Observa este código: todas las etiquetas están escritas, pero la estructura se ve desordenada porque no tiene indentación. Tu misión es acomodarlo visualmente usando espacios al inicio de cada línea. Recuerda: `<head>` y `<body>` están dentro de <html>, por eso deben ir un poco más a la derecha. Luego, `<title>` está dentro de `<head>`, y `<h1>` y `<p>` están dentro de `<body>`, así que también deben estar indentados.
+
+## Recomendaciones y Errores Comunes para Principiantes
+
+Uno de los errores más normales al empezar es olvidar cerrar una etiqueta. HTML puede ser flexible y a veces el navegador intenta adivinar lo que quisiste escribir, pero no conviene depender de eso. La buena práctica es cerrar cada sección. Si abriste `<head>`, cierras `</head>`. Si abriste `<body>`, cierras `</body>`. Y al final cierras `</html>`. Una forma sencilla de revisar tu código es leerlo como si fueran cajas: abro la caja principal, abro la cabeza, cierro la cabeza, abro el cuerpo, escribo el contenido, cierro el cuerpo y cierro la página. Cuando estés empezando, puedes seguir siempre el mismo orden para no perderte. Primero escribe `<html lang="es">` y su cierre `</html>`. Luego, dentro, agrega `<head>` y coloca el `<title>`. Después escribe `<body>` y dentro agrega lo que el usuario verá: un `<h1>`, un `<p>` o más elementos. Este orden te ayuda a construir la página poco a poco y evita que mezcles información del navegador con contenido visible.
+
+## Recursos Complementarios de la Clase
+
+- **Código HTML inicial de la lección:** [starter-files/lesson-02/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/starter-files/lesson-02/index.html)
+- **Código HTML final de la lección:** [completed-examples/lesson-02/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-02/index.html)
