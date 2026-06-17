@@ -1,83 +1,64 @@
-# Lección 1: ¿Qué es el desarrollo web?
+# ¿Qué es el desarrollo web?
 
-## 1. Ficha Técnica
-- **Duración estimada:** 5 minutos.
-- **Objetivo de aprendizaje:** Comprender el concepto básico de desarrollo web y diferenciar claramente el rol de HTML (estructura) y CSS (estilos), utilizando CodePen.
+¡Hola! ¿Alguna vez te has preguntado cómo se construyen las páginas web que visitas todos los días? Hoy vas a descubrirlo.
 
-## 2. Conceptos Clave
+## Video de la Clase y Entorno de Práctica
 
-### 2.1. Las Herramientas Básicas
-- **CodePen**: Es un entorno de desarrollo en línea que divide la pantalla en tres zonas: edición de HTML, edición de CSS y la vista previa del Resultado en vivo.
+*Enlace al video de YouTube:* [**https://youtu.be/0sGfa7kdpVQ**](https://youtu.be/0sGfa7kdpVQ)
 
-![Entorno de trabajo en CodePen, dividido en paneles para HTML, CSS y la vista de Resultado en vivo.](report/assets/lesson-01/codepen.png)
+Para esta primera clase y en todo este módulo no necesitas instalar ningún programa en tu computadora. Vamos a usar **CodePen**, un entorno de desarrollo en línea que funciona directamente desde tu navegador web. Solo haz clic en el siguiente enlace y verás el código inicial de la clase: [**https://codepen.io/ST-A-the-encoder/pen/KwNOLdw**](https://codepen.io/ST-A-the-encoder/pen/KwNOLdw)
 
-- **HTML (HyperText Markup Language)**: Define qué contenido existe en la página (textos, títulos, imágenes) y el orden en el que aparecen. Es el "esqueleto" o los "ladrillos" de nuestra web.
-- **CSS (Cascading Style Sheets)**: Define cómo se presenta visualmente ese contenido (colores, tamaños, fuentes, márgenes). Es la "pintura" y la "decoración".
+Una vez que abras el enlace, verás una interfaz dividida en paneles: en la parte superior se encuentran los editores independientes para HTML y CSS (donde escribiremos nuestras instrucciones), y en la parte inferior o lateral se ubica el panel de Resultado, que actúa como la pantalla en tiempo real de tu navegador mostrando cómo cobra vida tu código.
 
-![Analogía de la casa: HTML representa la estructura o esqueleto y CSS representa los acabados, pintura y estilos visuales.](report/assets/lesson-01/casa-esqueleto-presentacion.png)
+![Captura de CodePen con el proyecto precargado](../assets/lesson-01/codepen-precargado.png){width=80%}
 
-- **El Navegador**: Su función es leer primero el documento HTML para crear el contenido, luego leer y aplicar las reglas del CSS, y finalmente renderizar el resultado final en la pantalla.
+## Notas de la Clase
 
-![Procesamiento del navegador: combinación de archivos HTML y CSS para renderizar la página web final.](report/assets/lesson-01/procesamiento-navegador.png)
 
-### 2.2. ¿Por qué separamos el Contenido (HTML) del Estilo (CSS)?
-Dividir el desarrollo web en estas dos tecnologías separadas es una de las mejores prácticas de la industria:
-1. **Mantenimiento sencillo**: Si necesitas modificar la información o el texto de tu página web, solo editas el archivo HTML sin alterar su diseño. Si decides cambiar el color o tamaño de los títulos de todo tu sitio web, solo editas una regla en tu hoja de estilos CSS sin tocar la información escrita.
-2. **Reutilización**: Un único archivo CSS de estilos se puede enlazar a decenas de páginas HTML diferentes, dándoles a todas un aspecto coherente y corporativo al instante.
+**¿Dónde vemos desarrollo web todos los días?** 
 
-### 2.3. ¿Por qué usamos los nombres `index.html` y `styles.css`?
-Al estructurar nuestro proyecto en carpetas locales, verás que usamos nombres muy específicos por convención:
-- **`index.html`**: Es el nombre estándar reservado para la página de inicio o portada de un sitio web. Cuando un servidor web recibe una petición para entrar a una carpeta (por ejemplo, `misitio.com/`), busca de forma automática un archivo llamado `index.html` para mostrarlo por defecto. Si tuviera otro nombre, el navegador podría mostrar una lista vacía de archivos o un error de acceso.
-- **`styles.css`**: Es la convención más común para nombrar el archivo principal de estilos. Permite a cualquier programador que lea nuestro proyecto identificar inmediatamente dónde se encuentra toda la lógica visual de la página.
+Antes de escribir código, pensemos en algo muy simple: casi todo lo que usamos en internet vive dentro de una página o aplicación web. Cuando revisas una tarea, ves un video, lees una noticia o compras algo en línea, estás usando tecnologías web. Por eso aprender HTML y CSS es como aprender el alfabeto básico de internet. No necesitas saberlo todo desde el primer día; solo necesitas entender cómo se construye una página paso a paso.
 
-### 2.4. Consejos y Errores Comunes
-- **Cierre de etiquetas**: Las etiquetas de HTML suelen trabajar en parejas: una de apertura (`<h1>`) y otra de cierre (`</h1>`). Si olvidas cerrar una etiqueta, el navegador podría desconfigurar todo el contenido restante intentando aplicar el mismo formato.
-- **Sintaxis en CSS**: Las instrucciones en CSS se agrupan entre llaves `{ }` y cada propiedad debe finalizar con un punto y coma `;` (por ejemplo, `color: blue;`). Olvidar el `;` al final de una línea es el error más frecuente y hace que el navegador ignore esa regla y las siguientes.
+**La Analogía del Edificio** 
 
-## 3. Código de Inicio (Starter Code)
-*Plataforma: CodePen (proporcionar enlace al alumno)*
+Imagina que una página web es como una casa. El **HTML** son los ladrillos, las paredes y el techo. Es el esqueleto que le da estructura a nuestra información. Por otro lado, el **CSS** es la pintura, los muebles y la decoración. Es lo que hace que nuestra casa (o página web) se vea increíble.
 
-Los archivos de inicio para esta lección están disponibles en la carpeta [/starter-files/lesson-01](file:///D:/Projects/webdev-course-arcadiadevs/starter-files/lesson-01/):
-- HTML base: [index.html](file:///D:/Projects/webdev-course-arcadiadevs/starter-files/lesson-01/index.html)
-- CSS base: [styles.css](file:///D:/Projects/webdev-course-arcadiadevs/starter-files/lesson-01/styles.css)
+**Separando contenido y apariencia**
 
-**HTML:**
+Lo importante es separar dos ideas. Primero está el contenido: qué texto aparece, qué título se muestra o qué información queremos comunicar. Esa parte corresponde a HTML. Luego está la presentación: el color del título, el tamaño del texto, los espacios o si algo aparece centrado. Esa parte corresponde a CSS. Separar contenido y estilo hace que una página sea más fácil de entender, corregir y mejorar. Si queremos cambiar el mensaje, tocamos HTML. Si queremos cambiar cómo se ve, tocamos CSS.
+
+**Nuestra Primera Página**
+
+Nuestro primer código HTML será el siguiente, solo observa y visualiza el resultado en CodePen, aún no es necesario memorizar nada.
+
 ```html
 <h1>Hola Mundo</h1>
 <p>Mi primera página</p>
 ```
 
-**CSS:**
+Ahora en el panel de CSS, copia lo siguiente. Para esta regla usamos llaves del sector `h1`. Con esto, le comunicamos al navegador que el color del título deberá ser azul.
+
 ```css
-/* Aquí escribiremos nuestros estilos */
-```
-
-## 4. Código Final (Solution)
-El código de la solución completada está disponible en la carpeta [/completed-examples/lesson-01](file:///D:/Projects/webdev-course-arcadiadevs/completed-examples/lesson-01/):
-- HTML completo: [index.html](file:///D:/Projects/webdev-course-arcadiadevs/completed-examples/lesson-01/index.html)
-- CSS completo: [styles.css](file:///D:/Projects/webdev-course-arcadiadevs/completed-examples/lesson-01/styles.css)
-
-![Anatomía de una regla CSS: desglose de selector, propiedad, valor, llaves y punto y coma.](report/assets/lesson-01/anatomia-css.png)
-
-**HTML:**
-```html
-<h1>Hola Mundo</h1>
-<p>Mi primera página</p>
-```
-
-**CSS:**
-```css
-h1 {
-  color: blue;
+h1 { 
+    color: blue;
 }
 ```
 
-## 5. Actividad Práctica
+## Actividad Práctica de la Clase: 
 
-**Reto (3 minutos): ¡Hazlo tuyo!**
-1. Abre el CodePen con el Código de Inicio. Debes ver tres zonas: **HTML**, **CSS** y **Resultado**.
-2. En el panel **HTML**, cambia solo el texto que está entre las etiquetas `<h1>` y `</h1>` para que diga `¡Hola, soy [Tu Nombre]!`.
-3. No borres la etiqueta `<h1>` ni la etiqueta de cierre `</h1>`; solo reemplaza el texto del medio por tu nombre o el nombre que quieras mostrar.
-4. En el panel **CSS**, deja el selector `h1` tal como está y cambia únicamente `blue` por un color en inglés, por ejemplo: `red`, `green`, `purple` u `orange`.
-5. Verifica que en **Resultado** aparezca el mismo texto, pero ahora con tu nombre y el color que elegiste.
-6. Si no ves cambios, revisa que no hayas quitado el punto y coma `;` ni las llaves `{ }`.
+**El Reto del Contenido:**
+
+Ahora es tu turno. Cambia el texto "Hola Mundo" por un título propio, como "Bienvenido a mi sitio" o "Mi página personal". Después cambia el párrafo "Mi primera página" por una frase corta, por ejemplo: "Estoy aprendiendo HTML y CSS" o "Aquí compartiré mis intereses". No borres las etiquetas `<h1>`, `</h1>`, `<p>` ni `</p>`. Cambia solo el texto que está en medio.
+
+## Recomendaciones y Errores Comunes para Principiantes
+
+Un error común al empezar es borrar una parte del código sin darse cuenta. Por ejemplo, si eliminas el cierre `</h1>` o `</p>`, el navegador puede intentar adivinar qué querías hacer, pero el código queda incompleto. En CSS también hay detalles importantes: las reglas usan llaves '{ }', y las instrucciones suelen terminar con punto y coma ';'. Cuando algo no funcione, revisa con calma: ¿cada etiqueta se abrió y se cerró?, ¿la regla de CSS tiene llaves?, ¿la línea termina con punto y coma? Programar también consiste en revisar pequeños detalles.
+
+## Recursos Complementarios de la Clase
+
+- **Código HTML inicial de la lección:** [starter-files/lesson-01/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/starter-files/lesson-01/index.html)
+- **Código CSS inicial de la lección:** [starter-files/lesson-01/styles.css](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/starter-files/lesson-01/styles.css)
+- **Código HTML final de la lección:** [completed-examples/lesson-01/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-01/index.html)
+- **Código CSS final de la lección:** [completed-examples/lesson-01/styles.css](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-01/styles.css)
+
+\newpage
