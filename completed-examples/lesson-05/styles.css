@@ -1,0 +1,14 @@
+/* Regla para el fondo de pantalla */
+body {
+  background-color: #fce4ec; /* un rosa pastel, pero también puede ser un color en inglés como 'pink' */
+}
+
+/* Regla para el texto del título */
+h1 {
+  color: #880e4f;
+}
+
+/* Reto adicional completado: Regla para el párrafo */
+p {
+  color: #4a4a4a;
+}
