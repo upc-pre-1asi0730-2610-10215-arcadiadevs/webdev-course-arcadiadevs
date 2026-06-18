@@ -1,4 +1,4 @@
-﻿# Proyecto Final y Próximos Pasos
+# Proyecto Final y Próximos Pasos
 
 ## Video de la Clase y Entorno de Práctica
 
@@ -67,3 +67,5 @@ Ahora puedes personalizar tu perfil. Cambia el nombre, la descripción, los enla
 - **Código CSS inicial de la lección:** [starter-files/lesson-08/styles.css](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/starter-files/lesson-08/styles.css)
 - **Código HTML final de la lección:** [completed-examples/lesson-08/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-08/index.html)
 - **Código CSS final de la lección:** [completed-examples/lesson-08/styles.css](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-08/styles.css)
+
+\newpage
