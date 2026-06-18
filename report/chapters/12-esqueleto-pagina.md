@@ -62,3 +62,5 @@ Uno de los errores más normales al empezar es olvidar cerrar una etiqueta. HTML
 
 - **Código HTML inicial de la lección:** [starter-files/lesson-02/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/starter-files/lesson-02/index.html)
 - **Código HTML final de la lección:** [completed-examples/lesson-02/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-02/index.html)
+
+\newpage

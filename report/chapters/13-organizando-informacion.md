@@ -1,3 +1,5 @@
+# Organizando la Información
+
 ## Video de la Clase y Entorno de Práctica
 
 *Enlace al video de YouTube:* [**https://youtu.be/w65R31rmauc**](https://youtu.be/w65R31rmauc)
@@ -58,3 +60,5 @@ Un error común es escribir elementos `<li>` fuera de una lista. Recuerda que lo
 
 - **Código HTML inicial de la lección:** [starter-files/lesson-03/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/starter-files/lesson-03/index.html)
 - **Código HTML final de la lección:** [completed-examples/lesson-03/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-03/index.html)
+
+\newpage

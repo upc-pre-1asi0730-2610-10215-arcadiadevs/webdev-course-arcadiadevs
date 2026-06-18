@@ -1,4 +1,4 @@
-﻿# Conoce a CSS
+# Conoce a CSS
 
 ## Video de la Clase y Entorno de Práctica
 
@@ -80,3 +80,5 @@ También existe el atributo `style`, que se escribe directamente dentro de una e
 - **Código CSS inicial de la lección:** [starter-files/lesson-05/styles.css](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/starter-files/lesson-05/styles.css)
 - **Código HTML final de la lección:** [completed-examples/lesson-05/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-05/index.html)
 - **Código CSS final de la lección:** [completed-examples/lesson-05/styles.css](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-05/styles.css)
+
+\newpage

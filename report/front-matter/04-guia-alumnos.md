@@ -35,15 +35,15 @@ El repositorio oficial del curso en GitHub está organizado para facilitarte el 
 
 ## Secuencia de Lecciones {-}
 
-| Lección | Título | Temas Clave |
-|---------|--------|-------------|
-| 1 | ¿Qué es el Desarrollo Web? | HTML, CSS, CodePen |
-| 2 | El Esqueleto de una Página | Etiquetas semánticas, estructura HTML |
-| 3 | Organizando la Información | Listas, tablas, enlaces |
-| 4 | Multimedia y Navegación | Imágenes, audio, video, navegación |
-| 5 | Conoce CSS | Selectores, propiedades, valores |
-| 6 | Tipografía y Estilo | Fuentes, colores, texto |
-| 7 | Espacios y Bordes | Modelo de caja, márgenes, padding |
-| 8 | Proyecto Final | Sitio web completo |
+| Lección | Título | Duración | Temas Clave |
+|---------|--------|----------|-------------|
+| 1 | ¿Qué es el Desarrollo Web? | 5 min | HTML, CSS, CodePen |
+| 2 | El Esqueleto de una Página | 7 min | Etiquetas semánticas, estructura HTML |
+| 3 | Organizando la Información | 8 min | Listas, encabezados, párrafos |
+| 4 | Multimedia y Navegación | 8 min | Imágenes, enlaces |
+| 5 | Conoce CSS | 7 min | Selectores, propiedades, valores |
+| 6 | Tipografía y Estilo | 8 min | Fuentes, colores, texto |
+| 7 | Espacios y Bordes | 7 min | Modelo de caja, márgenes, padding |
+| 8 | Proyecto Final | 10 min | Sitio web completo |
 
 \newpage
