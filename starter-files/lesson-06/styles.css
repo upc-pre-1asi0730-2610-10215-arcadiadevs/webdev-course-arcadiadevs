@@ -1,0 +1,18 @@
+body {
+  background-color: #f7f9fc;
+  /* Se agrega tipografía limpia */
+  font-family: "Verdana", sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+  /* Centrando y dando tamaño al protagonista */
+  font-size: ;
+  text-align: center;
+}
+
+p {
+  color: #34495e;
+  /* Legibilidad cómoda */
+  font-size: ;
+}
