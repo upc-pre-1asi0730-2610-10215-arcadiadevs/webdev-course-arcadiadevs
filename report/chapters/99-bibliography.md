@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-﻿# bibliography
-=======
 # Referencias {-}
 
 \begingroup
@@ -28,11 +25,48 @@ MDN Web Docs. (s.f.). *CSS: Styling the content*. Mozilla Developer Network. <ht
 
 MDN Web Docs. (s.f.). *How the web works*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works>
 
-MDN Web Docs. (s.f.). *What is CSS?*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS>
+**Clase 2: El Esqueleto de una Página**
 
 MDN Web Docs. (s.f.). *Basic HTML syntax*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax>
+
+MDN Web Docs. (s.f.). *Document and website structure*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Document_and_website_structure>
+
+**Clase 3: Organizando la Información**
+
+MDN Web Docs. (s.f.). *HTML lists*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists>
+
+MDN Web Docs. (s.f.). *HTML headings*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs>
+
+**Clase 4: Multimedia y Navegación**
+
+MDN Web Docs. (s.f.). *HTML images*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Images>
+
+MDN Web Docs. (s.f.). *Creating hyperlinks*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links>
+
+**Clase 5: Conoce CSS**
+
+MDN Web Docs. (s.f.). *What is CSS?*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS>
+
+MDN Web Docs. (s.f.). *CSS syntax*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Syntax>
+
+MDN Web Docs. (s.f.). *CSS selectors*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Selectors>
+
+**Clase 6: Tipografía y Estilo**
+
+MDN Web Docs. (s.f.). *Fundamental CSS concepts*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Fundamental_CSS_concepts>
+
+MDN Web Docs. (s.f.). *CSS font properties*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Web/CSS/font>
+
+**Clase 7: Espacios y Bordes**
+
+MDN Web Docs. (s.f.). *The box model*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model>
+
+MDN Web Docs. (s.f.). *Introduction to the CSS box model*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model>
+
+**Clase 8: Proyecto Final**
+
+MDN Web Docs. (s.f.). *Designing your first web page*. Mozilla Developer Network. <https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Design_your_first_web_page>
 
 \endgroup
 
 \newpage
->>>>>>> origin/develop

@@ -1,3 +1,5 @@
+# Multimedia y Navegación
+
 ## Video de la Clase y Entorno de Práctica
 
 *Enlace al video de YouTube:* [**falta**](falta)
@@ -48,3 +50,5 @@ Cuando escribas enlaces, evita usar siempre frases como "clic aquí". Es mejor q
 
 - **Código HTML inicial de la lección:** [starter-files/lesson-04/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/starter-files/lesson-04/index.html)
 - **Código HTML final de la lección:** [completed-examples/lesson-04/index.html](https://github.com/upc-pre-1asi0730-2610-10215-arcadiadevs/webdev-course-arcadiadevs/blob/main/completed-examples/lesson-04/index.html)
+
+\newpage
