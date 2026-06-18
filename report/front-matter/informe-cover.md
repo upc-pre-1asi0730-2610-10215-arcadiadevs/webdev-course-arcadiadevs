@@ -61,8 +61,6 @@ nocite: '[@*]'
 \hline
 \centering \textbf{Alumnos} & \centering \textbf{Código} \tabularnewline
 \hline
-Carpio Peña, Josué Francisco & U202519273 \tabularnewline
-\hline
 Espada Lazo, Piero Anthony & U20241d924 \tabularnewline
 \hline
 Li Gayoso, Diana Carolina & U202415749 \tabularnewline
