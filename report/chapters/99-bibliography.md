@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+﻿# bibliography
+=======
 # Referencias {-}
 
 \begingroup
@@ -32,3 +35,4 @@ MDN Web Docs. (s.f.). *Basic HTML syntax*. Mozilla Developer Network. <https://d
 \endgroup
 
 \newpage
+>>>>>>> origin/develop
