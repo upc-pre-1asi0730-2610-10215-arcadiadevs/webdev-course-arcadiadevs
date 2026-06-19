@@ -2,11 +2,10 @@
 
 ## Organización del Equipo {-}
 
-El equipo **ArcadiaDevs** estuvo conformado por seis estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas, quienes se organizaron de manera colaborativa para diseñar, producir y documentar el curso "Fundamentos de Desarrollo Web".
+El equipo **ArcadiaDevs** estuvo conformado por cinco estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas, quienes se organizaron de manera colaborativa para diseñar, producir y documentar el curso "Fundamentos de Desarrollo Web".
 
 | Nombre | Código | Rol Principal |
 |--------|--------|---------------|
-| Carpio Peña, Josué Francisco | U202519273 | Desarrollo de código y grabación de videos |
 | Espada Lazo, Piero Anthony | U20241d924 | Diseño instruccional, guiones y grabación de videos |
 | Li Gayoso, Diana Carolina | U202415749 | Investigación pedagógica, revisión de contenido y grabación de videos |
 | Paredes Maza, Víctor Juan de Dios | U202416274 | Gestión del repositorio, documentación y grabación de videos |
@@ -65,7 +64,7 @@ Se consolidó todo el material en un repositorio público de GitHub, siguiendo l
 | 4 | Multimedia y Navegación | Santi Guerrero, Fabrizio Alonso |
 | 5 | Conoce a CSS | Li Gayoso, Diana Carolina |
 | 6 | Tipografía y Estilo | Espada Lazo, Piero Anthony |
-| 7 | Espacios y Bordes | Carpio Peña, Josué Francisco |
+| 7 | Espacios y Bordes | Espada Lazo, Piero Anthony |
 | 8 | Proyecto Final y Próximos Pasos | Paredes Maza, Víctor Juan de Dios |
 
 ## Repositorio de Código Fuente {-}
