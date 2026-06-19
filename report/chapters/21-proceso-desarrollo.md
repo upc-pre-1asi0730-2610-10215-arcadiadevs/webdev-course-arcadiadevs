@@ -63,7 +63,7 @@ Se consolidó todo el material en un repositorio público de GitHub, siguiendo l
 | 3 | Organizando la Información | Santi Guerrero, Fabrizio Alonso |
 | 4 | Multimedia y Navegación | Santi Guerrero, Fabrizio Alonso |
 | 5 | Conoce a CSS | Li Gayoso, Diana Carolina |
-| 6 | Tipografía y Estilo | Espada Lazo, Piero Anthony |
+| 6 | Tipografía y Estilo | Li Gayoso, Diana Carolina |
 | 7 | Espacios y Bordes | Espada Lazo, Piero Anthony |
 | 8 | Proyecto Final y Próximos Pasos | Paredes Maza, Víctor Juan de Dios |
 
