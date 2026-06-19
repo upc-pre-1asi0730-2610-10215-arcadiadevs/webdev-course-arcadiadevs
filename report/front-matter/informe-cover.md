@@ -16,72 +16,73 @@ nocite: '[@*]'
 
 {\Large \textbf{UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS}\par}
 \vspace{0.15cm}
-{\large "Año de la Esperanza y el Fortalecimiento de la Democracia"\par}
+{\large Carrera de Ingeniería de Software\par}
 
 \vspace{1.0cm}
 
-{\Large \textbf{1ASI0730 - APLICACIONES WEB}\par}
+{\Large \textbf{1ASI0730}\par}
 \vspace{0.25cm}
-{\large \textbf{NRC 10215}\par}
+{\large \textbf{Aplicaciones Web}\par}
+\vspace{0.25cm}
+{\large NRC\par}
+\vspace{0.10cm}
+{\large \textbf{10215}\par}
 
 \vspace{0.8cm}
-
-{\large \textbf{Docente:}\par}
-\vspace{0.10cm}
-{\normalsize Velásquez Núñez, Ángel Augusto\par}
-
-\vspace{1.0cm}
 
 {\LARGE \textbf{Informe del Proyecto}\par}
 \vspace{0.15cm}
 {\large Plan de Curso: Fundamentos de Desarrollo Web\par}
 
-\vspace{2.0cm}
+\vspace{0.8cm}
 
-{\large \textbf{CARRERA:}\par}
+{\large \textbf{Docente}\par}
 \vspace{0.10cm}
-{\normalsize Ingeniería de Software\par}
+{\normalsize Velásquez Núñez, Ángel Augusto\par}
 
-\vspace{0.35cm}
+\vspace{0.6cm}
 
-{\large \textbf{CICLO:}\par}
+{\large \textbf{Equipo}\par}
 \vspace{0.10cm}
-{\normalsize 202610\par}
+{\normalsize ArcadiaDevs\par}
 
-\vspace{0.40cm}
+\vspace{0.6cm}
 
-{\large \textbf{INTEGRANTES:}\par}
+{\large \textbf{Proyecto}\par}
+\vspace{0.10cm}
+{\normalsize Fundamentos de Desarrollo Web\par}
+
+\vspace{0.6cm}
+
+{\large \textbf{Integrantes}\par}
 
 \vspace{0.20cm}
 
 {\small
 \renewcommand{\arraystretch}{1.08}
 \setlength{\tabcolsep}{6pt}
-\begin{tabular}{|p{7.2cm}|p{2.6cm}|}
+\begin{tabular}{|p{2.6cm}|p{7.2cm}|}
 \hline
-\centering \textbf{Alumnos} & \centering \textbf{Código} \tabularnewline
+\centering \textbf{Código} & \centering \textbf{Apellidos y Nombres} \tabularnewline
 \hline
-Espada Lazo, Piero Anthony & U20241d924 \tabularnewline
+U20241d924 & Espada Lazo, Piero Anthony \tabularnewline
 \hline
-Li Gayoso, Diana Carolina & U202415749 \tabularnewline
+U202415749 & Li Gayoso, Diana Carolina \tabularnewline
 \hline
-Paredes Maza, Víctor Juan de Dios & U202416274 \tabularnewline
+U202416274 & Paredes Maza, Víctor Juan de Dios \tabularnewline
 \hline
-Santi Guerrero, Fabrizio Alonso & U202411774 \tabularnewline
+U202411774 & Santi Guerrero, Fabrizio Alonso \tabularnewline
 \hline
-Trinidad León, Jahat Jassiel & U202412248 \tabularnewline
+U202412248 & Trinidad León, Jahat Jassiel \tabularnewline
 \hline
 \end{tabular}
 }
 
-\vspace{1.0cm}
+\vspace{0.6cm}
 
-{\normalsize
-\begin{tabular}{cc}
-Junio, 2026
-\end{tabular}
-\par
-}
+{\normalsize Periodo 202610\par}
+\vspace{0.20cm}
+{\normalsize Junio, 2026\par}
 
 \end{titlepage}
 \restoregeometry
