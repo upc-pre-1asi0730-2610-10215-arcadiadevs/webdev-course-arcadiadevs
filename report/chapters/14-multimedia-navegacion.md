@@ -2,7 +2,7 @@
 
 ## Video de la Clase y Entorno de Práctica
 
-*Enlace al video de YouTube:* [**falta**](falta)
+*Enlace al video de YouTube:* [**https://youtu.be/pM1lYq2LOUQ**](https://youtu.be/pM1lYq2LOUQ)
 
 Para esta clase continuaremos usando **CodePen**, el mismo entorno en línea que usamos la clase pasada. No necesitas instalar nada en tu computadora. Haz clic en el siguiente enlace para abrir el código inicial de la clase ya precargado: [**https://codepen.io/ST-A-the-encoder/pen/NPbejLJ**](https://codepen.io/ST-A-the-encoder/pen/NPbejLJ)
 
