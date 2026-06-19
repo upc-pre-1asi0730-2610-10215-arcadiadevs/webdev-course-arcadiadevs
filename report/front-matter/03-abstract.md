@@ -50,6 +50,6 @@ Este curso está diseñado específicamente para estudiantes de secundaria de en
 
 ---
 
-*Documento elaborado como parte del Proyecto de Responsabilidad Social del curso de Desarrollo Web, ArcadiaDevs, Ciclo 2026.*
+*Documento elaborado como parte del Proyecto de Responsabilidad Social del curso de Desarrollo Web, Ciclo 202601.*
 
 \newpage
