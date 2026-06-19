@@ -4,7 +4,7 @@
 
 *Enlace al video de YouTube:* [**https://youtu.be/ATvGFyKL7Zs**](https://youtu.be/ATvGFyKL7Zs)
 
-Para esta clase continuaremos usando **CodePen**, el mismo entorno en línea que usamos la clase pasada. No necesitas instalar nada en tu computadora. Haz clic en el siguiente enlace para abrir el código inicial de la clase ya precargado: [**https://codepen.io/ST-A-the-encoder/pen/qEqQevO**](https://codepen.io/ST-A-the-encoder/pen/qEqQevO)
+Para esta clase continuaremos usando **CodePen**, el mismo entorno en línea que usamos la clase pasada. No necesitas instalar nada en tu computadora. Haz clic en el siguiente enlace para abrir el código inicial de la clase ya precargado: [**https://codepen.io/ST-A-the-encoder/pen/qEqQevO**](https://codepen.io/ST-A-the-encoder/pen/MYbGEOB)
 
 Al igual que en la clase anterior, verás la interfaz con los panales divididos.
 
